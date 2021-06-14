@@ -7,89 +7,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="body-text-color">
     <header>
-        <nav>
-            <a href=""><span class="logo">Web</span>Studio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+        <nav class="navigation-bar">
+            <a href=""><span class="logo">Web</span><span class="logo-position">Studio</span></a>
+            <ul class="hiden-point">
+                <li><a class="nav-studio" href="">Студия</a></li>
+                <li><a class="nav-portfolio" href="">Портфолио</a></li>
+                <li><a class="nav-contacts" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="maillto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="hiden-point">
+            <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
         
     </header>
-    <section>
+    <section class="business">
         <h1>Эффективные решения<br> для вашего бизнеса</h1>
         <button>Заказать услугу</button>
     </section>
-    <section>
-        <h2>Способы решения для бизнеса</h2>
-        <ul>
-            <li>
+    <section class="points">
+        <h2 class="hiden">Способы решения для бизнеса</h2>
+        <ul class="hiden-point-ways">
+            <li class="ways-attention">
                 <h3>Внимание к деталям</h3>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                <p class="ps">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li>
+            <li class="ways-punctual">
                 <h3>Пунктуальность</h3>
                 <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li>
+            <li class="ways-planing">
                 <h3>Планирование</h3>
                 <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li>
+            <li class="ways-technology">
                 <h3>Современные технологии</h3>
                 <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
     </section>
     <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="our-work">Чем мы занимаемся</h2>
         <ul>
-            <li><img src="./img/maket_1.jpg" alt="Стол с компъютером и таблицей" width="270" height="215"></li>
-            <li><img src="./img/maket_2.jpg" alt="Ноутбук с телефоном в руках" width="270" height="215"></li>
-            <li><img src="./img/maket_2.jpg" alt="Планшет с матрицей цветов" width="270" height="215"></li>
+            <li><img class="maket-1" src="./img/maket_1.jpg" alt="Стол с компъютером и таблицей" width="270" height="215"></li>
+            <li><img class="maket-2" src="./img/maket_2.jpg" alt="Ноутбук с телефоном в руках" width="270" height="215"></li>
+            <li><img class="maket-3" src="./img/maket_3.jpg" alt="Планшет с матрицей цветов" width="270" height="215"></li>
         </ul>
     </section>
-    <section>
+    <section class="our-team">
         <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img src="./img/igor_demyianenko.jpg" alt="Игорь Демьяненко" width="270" height="215">
-                <p>Игорь Демьяненко</p> 
-                <p>Product Designer</p>
+        <ul class="hiden-point-team">
+            <li class="our-team-igor-demyianenko">
+                <img src="./img/igor_demyianenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                <p class="our-team-igor-demyianenko-text">Игорь Демьяненко</p>
+                <p class="our-team-igor-demyianenko-position">Product Designer</p>
             </li>
-            <li>
-                <img src="./img/olga_repina.jpg" alt="Ольга Репина" width="270" height="215">
-                <p>Ольга Репина</p> 
-                <p>Frontend Developer</p>
+            <li class="our-team-olga-repina">
+                <img src="./img/olga_repina.jpg" alt="Ольга Репина" width="270" height="260">
+                <p class="our-team-olga-repina-text">Ольга Репина</p> 
+                <p class="our-team-olga-repina-position">Frontend Developer</p>
             </li>
-            <li>
-                <img src="./img/nykolay_tarasov.jpg" alt="Николай Тарасов" width="270" height="215">
-                <p>Николай Тарасов</p> 
-                <p>Marketing</p>
+            <li class="our-team-nykolay-tarasov">
+                <img src="./img/nykolay_tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                <p class="our-team-nykolay-tarasov-text">Николай Тарасов</p> 
+                <p class="our-team-nykolay-tarasov-position">Marketing</p>
             </li>
-            <li>
-                <img src="./img/mykhail_ermakov.jpg" alt="Михаил Ермаков" width="270" height="215">
-                <p>Михаил Ермаков</p>
-                <p>UI Designer</p>
+            <li class="our-team-mykhail-ermakov">
+                <img src="./img/mykhail_ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
+                <p class="our-team-mykhail-ermakov-text">Михаил Ермаков</p>
+                <p class="our-team-mykhail-ermakov-position">UI Designer</p>
             </li>
         </ul>
     </section>
-    <footer>
-        <a href="">WebStudio</a>
+    <footer class="footer">
+        <a href=""><span class="footer-logo">Web</span><span class="footer-logo-position">Studio</span></a>
         <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <ul>    
-                <li> <a href="mailto:info@example.com"> info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="hiden-point-address">    
+                <li><a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="address-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>

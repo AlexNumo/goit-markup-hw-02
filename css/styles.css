@@ -1,12 +1,536 @@
-body{    
-
-
+.body-text-color{
+    color: #212121;
 }
-.logo{
-width: 145px;
-height: 31px;
-top: 24px;
-left: 215px;
-color: #2196F3;
 
+.navigation-bar{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+
+.logo{
+    left: 215px;
+    color: #2196F3;
+}
+
+.logo, .logo-position{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    top: 24px;
+}
+
+.logo-position{
+    left: 266px;
+}
+
+.navigation-bar > ul > li>a:hover{
+    color:  #2196F3;
+}
+
+.nav-studio{
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    position: absolute;
+    text-decoration:none;
+}
+
+.nav-portfolio{
+    position: absolute;
+    width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    text-decoration:none;
+}
+
+.nav-contacts{
+    position: absolute;
+    width: 68px;
+    height: 16px;
+    left: 679px;
+    top: 32px;
+    text-decoration:none;
+}
+
+.mail{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    color: #2196F3;
+    text-decoration:none;
+}
+
+.phone{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    text-decoration:none;
+}
+
+.mail, .phone{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.hiden-point{
+    color: #FFFFFF;
+}
+
+.business{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.business > h1{
+    position: absolute;
+    width: 696px;/*ширина*/
+    height: 120px;/*высота*/
+    left: 452px;/*слева*/
+    top: 180px;/*сверху*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.business > button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 360px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.business-type-text{
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.hiden{
+    left: -450px;
+    position: absolute;
+}
+
+.points{
+    background: #E5E5E5;
+}
+
+.hiden-point-ways{
+    background: #E5E5E5;
+    margin-right: 350px;
+}
+
+.ways-attention{
+    position: absolute;
+    left: 215px;
+}
+
+.ways-punctual{
+    position: absolute;
+    left: 515px;
+}
+
+.ways-planing{
+    position: absolute;
+    left: 815px;
+}
+
+.ways-technology{
+    position: absolute;
+    left: 1115px;
+}
+.ways-attention, .ways-planing, .ways-punctual, .ways-technology{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    top: 774px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.ps{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.our-work{
+    position: absolute;
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.maket-1, .maket-2, .maket-3{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    top: 1061px;
+    mix-blend-mode: normal;
+}
+
+.maket-1{
+    position: absolute;
+    left: 215px;
+}
+
+.maket-2{
+    position: absolute;
+    left: 615px;
+}
+
+.maket-3{
+    position: absolute;
+    left: 1015px;
+}
+
+.our-team{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+
+.our-team > h2{
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 95px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.hiden-point-team{
+color: #F5F4FA;
+}
+
+.our-team-igor-demyianenko{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-igor-demyianenko-text{
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 60px;
+    top: 290px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team-igor-demyianenko-position{
+    position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 70px;
+    top: 310px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.our-team-olga-repina{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-olga-repina-text{
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 60px;
+    top: 290px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team-olga-repina-position{
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 70px;
+    top: 310px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.our-team-nykolay-tarasov{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-nykolay-tarasov-text{
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 60px;
+    top: 290px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team-nykolay-tarasov-position{
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 70px;
+    top: 310px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.our-team-mykhail-ermakov{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-mykhail-ermakov-text{
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 60px;
+    top: 290px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team-mykhail-ermakov-position{
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 70px;
+    top: 310px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
+.footer-logo{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 60px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-logo-position{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 266px;
+    top: 60px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.address{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 110px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.hiden-point-address{
+    color: #2F303A;
+}
+
+.address-mail{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 145px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-phone{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+    color: rgba(255, 255, 255, 0.6);
 }
