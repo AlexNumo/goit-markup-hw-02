@@ -5,91 +5,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <title>Главная</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
-<body class="body-text-color">
+<body>
+<!--========HEADER========================-->
     <header>
         <nav class="navigation-bar">
-            <a href=""><span class="logo">Web</span><span class="logo-position">Studio</span></a>
-            <ul class="hiden-point">
-                <li><a class="nav-studio" href="">Студия</a></li>
-                <li><a class="nav-portfolio" href="">Портфолио</a></li>
-                <li><a class="nav-contacts" href="">Контакты</a></li>
+            <a href="index.html"><span class="logo-thre-letters">Web</span>Studio</a>
+            <ul class="navigation-link">
+                <li><a class="navigation-bar-studio text-none" href="index.html">Студия</a></li>
+                <li><a class="navigation-bar-portfolio text-color"href="portfolio.html">Портфолио</a></li>
+                <li><a class="navigation-bar-contacts text-color"href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="hiden-point">
-            <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul>
+            <li><a class="mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="phone-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-        
     </header>
+<!--========HERO========================-->  
     <section class="business">
         <h1>Эффективные решения<br> для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <button class="button-service" type="button">Заказать услугу</button>
     </section>
-    <section class="points">
-        <h2 class="hiden">Способы решения для бизнеса</h2>
-        <ul class="hiden-point-ways">
-            <li class="ways-attention">
+<!--========WAYS FOR BUSINESS========================-->  
+    <section>
+        <h2>Способы решения для бизнеса</h2>
+        <ul>
+            <li class="ways">
                 <h3>Внимание к деталям</h3>
-                <p class="ps">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li class="ways-punctual">
+            <li class="ways">
                 <h3>Пунктуальность</h3>
                 <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li class="ways-planing">
+            <li class="ways">
                 <h3>Планирование</h3>
                 <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li class="ways-technology">
+            <li class="ways">
                 <h3>Современные технологии</h3>
                 <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
     </section>
+<!--========OUR WORK========================-->    
     <section>
         <h2 class="our-work">Чем мы занимаемся</h2>
         <ul>
-            <li><img class="maket-1" src="./img/maket_1.jpg" alt="Стол с компъютером и таблицей" width="270" height="215"></li>
-            <li><img class="maket-2" src="./img/maket_2.jpg" alt="Ноутбук с телефоном в руках" width="270" height="215"></li>
-            <li><img class="maket-3" src="./img/maket_3.jpg" alt="Планшет с матрицей цветов" width="270" height="215"></li>
+            <li><img src="./img/maket_1.jpg" alt="Стол с компъютером и таблицей" width="270" height="215"></li>
+            <li><img src="./img/maket_2.jpg" alt="Ноутбук с телефоном в руках" width="270" height="215"></li>
+            <li><img src="./img/maket_3.jpg" alt="Планшет с матрицей цветов" width="270" height="215"></li>
         </ul>
     </section>
+<!--========OUR TEAM========================-->      
     <section class="our-team">
         <h2>Наша команда</h2>
-        <ul class="hiden-point-team">
-            <li class="our-team-igor-demyianenko">
+        <ul>
+            <li class="team-member">
                 <img src="./img/igor_demyianenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                <p class="our-team-igor-demyianenko-text">Игорь Демьяненко</p>
-                <p class="our-team-igor-demyianenko-position">Product Designer</p>
+                <p>Игорь Демьяненко</p>
+                <p class="member-profession">Product Designer</p>
             </li>
-            <li class="our-team-olga-repina">
+            <li class="team-member">
                 <img src="./img/olga_repina.jpg" alt="Ольга Репина" width="270" height="260">
-                <p class="our-team-olga-repina-text">Ольга Репина</p> 
-                <p class="our-team-olga-repina-position">Frontend Developer</p>
+                <p>Ольга Репина</p> 
+                <p class="member-profession">Frontend Developer</p>
             </li>
-            <li class="our-team-nykolay-tarasov">
+            <li class="team-member">
                 <img src="./img/nykolay_tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
-                <p class="our-team-nykolay-tarasov-text">Николай Тарасов</p> 
-                <p class="our-team-nykolay-tarasov-position">Marketing</p>
+                <p>Николай Тарасов</p> 
+                <p class="member-profession">Marketing</p>
             </li>
-            <li class="our-team-mykhail-ermakov">
+            <li class="team-member">
                 <img src="./img/mykhail_ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
-                <p class="our-team-mykhail-ermakov-text">Михаил Ермаков</p>
-                <p class="our-team-mykhail-ermakov-position">UI Designer</p>
+                <p>Михаил Ермаков</p>
+                <p class="member-profession">UI Designer</p>
             </li>
         </ul>
     </section>
+<!--========FOOTER========================-->      
     <footer class="footer">
-        <a href=""><span class="footer-logo">Web</span><span class="footer-logo-position">Studio</span></a>
+        <a href="index.html"><span class="logo-thre-letters">Web</span>Studio</a>
         <address>
-            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="hiden-point-address">    
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>    
                 <li><a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="address-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
