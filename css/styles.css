@@ -17,6 +17,11 @@ a{
     color: #2196F3;
 }
 
+ul li{
+    list-style: none;
+}
+
+
 /*=============HEADER==========================*/
 .navigation-bar{
     font-size: 26px;
@@ -24,6 +29,11 @@ a{
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
+
+.navigation-bar a{
+    color: #000000;
+}
+
 
 .navigation-bar-contacts{
     color: var(--main-color);
@@ -101,14 +111,21 @@ a{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .button-service{
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color:white;   
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;  
+    background-color: #2196F3;
 }
 
 /*=============WAYS FOR BUSINESS==========================*/
@@ -120,10 +137,10 @@ a{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-color)
 }
 
-.ways p{
+.ways-option{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -144,7 +161,7 @@ a{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color)
 }
 
 /*=============OUR TEAM==========================*/
@@ -157,7 +174,7 @@ a{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color)
 }
 
 .team-member{
@@ -168,7 +185,7 @@ a{
     line-height: 1,19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color)
 }
 
 .member-profession{
@@ -191,16 +208,7 @@ a{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    /*color: #FFFFFF;*/
-}
-
-.footer p{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.72;
-    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .address-mail{
@@ -210,7 +218,7 @@ a{
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
-    /*color: rgba(255, 255, 255, 0.6);*/
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .address-phone{
@@ -220,7 +228,7 @@ a{
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
-   /* color: rgba(255, 255, 255, 0.6);*/
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /*=============PORTFOLIO==========================*/
@@ -233,7 +241,7 @@ a{
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color)
 }
 
 .button-service-portfolio:hover{
@@ -248,7 +256,7 @@ a{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-color)
 }
 
 .direction{
